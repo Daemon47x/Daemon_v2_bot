@@ -30,7 +30,12 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("✌Bën 😉 (⁠╯⁠°⁠□⁠°⁠）⁠╯ C'est quoi ta putain de question :");
+        await message.reply("🅖🅗🅞🅢🅣
+
+
+
+𝐩𝐨𝐬𝐞 𝐥𝐚 𝐭𝐚 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧 𝐰𝐞𝐬𝐡
+ :");
         return;
       }
 
@@ -42,7 +47,7 @@ module.exports = {
     await message.reply({ body: ` Mortel voici les résultats des vos recherches : 
 ______________________________  
 ${answer}
-(*・_・)ノ 🏅 Bënÿ écrive $botgc pour intégrer mon groupe prive 😏 🏅`,
+🅖🅗🅞🅢🅣`,
 });
 
    } catch (error) {
